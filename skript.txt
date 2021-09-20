@@ -1,6 +1,6 @@
 local gui = game:GetObjects("rbxassetid://7521131615")[1]
 gui.Parent = game.CoreGui
-local filesystem = loadstring(game:HttpGetAsync(''))()
+local filesystem = loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/Erix-glitch/boblox-stuff/main/fs.txt'))()
 gui.Frame.Frame.TextButton.Activated:Connect(function()
 	gui:Destroy()
 	sound:Destroy()
